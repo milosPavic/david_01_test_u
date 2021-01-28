@@ -1,0 +1,13 @@
+@font-face {
+    font-family: SourceSansPro-Semibold;
+    src: url("../assets/fonts/SourceSansPro-Semibold.otf");
+}
+
+@font-face {
+    font-family: SourceSansPro-Regular;
+    src: url("../assets/fonts/SourceSansPro-Regular.otf");
+}
+@font-face {
+    font-family: SourceSansPro-Bold;
+    src: url("../assets/fonts/SourceSansPro-Bold.otf");
+}
