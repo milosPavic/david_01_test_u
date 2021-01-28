@@ -1,0 +1,137 @@
+.dvFeatures{
+    position: absolute;
+    width: 100%;
+    height: 2331px;
+    top: 767px;
+    left: 0;
+    background-color: #232b36;
+}
+.dvFeatures .imgLock{
+     position: absolute;
+     top: 153px;
+     left: 100px;
+     width: 40px;
+     height: 52px;
+     text-align: Left;
+ }
+.dvFeatures .Left_Header{
+    position: absolute;
+    top: 232px;
+    left: 100px;
+    width: 100%;
+    text-align: Left;
+    font-family: SourceSansPro-Semibold;
+    font-size: 30px;
+}
+.dvFeatures .Left_sub{
+    position: absolute;
+    top: 317px;
+    left: 100px;
+    width: 100%;
+    text-align: Left;
+    font-family: SourceSansPro-Regular;
+    font-size: 20px;
+    line-height: 24pt;
+}
+.dvFeatures .imgClock{
+    position: absolute;
+    top: 153px;
+    Left: 764px;
+    width: 40px;
+    height: 52px;
+    text-align: Left;
+}
+.dvFeatures .Right_Header{
+    position: absolute;
+    top: 232px;
+    Left: 764px;
+    width: 100%;
+    text-align: Left;
+    font-family: SourceSansPro-Semibold;
+    font-size: 30px;
+}
+.dvFeatures .Right_sub{
+    position: absolute;
+    top: 317px;
+    left: 764px;
+    //Right: 100%;
+    text-align: Left;
+    font-family: SourceSansPro-Regular;
+    font-size: 20px;
+    line-height: 24pt;
+}
+.dvFeatures .imgPhoneV2{
+    position: absolute;
+    top: 718px;
+    Left: 0px;
+    width: 730px;
+    height: 683px;
+    text-align: Left;
+}
+.dvFeatures .YourDayIsProtected_Header{
+    position: absolute;
+    top: 728px;
+    Left: 813px;
+    width: 100%;
+    text-align: Left;
+    font-family: SourceSansPro-Semibold;
+    font-size: 45px;
+    line-height: 40pt;
+}
+.dvFeatures .YourDayIsProtected_sub{
+    position: absolute;
+    top: 948px;
+    left: 813px;
+//Right: 100%;
+    text-align: Left;
+    font-family: SourceSansPro-Regular;
+    font-size: 20px;
+    line-height: 24pt;
+}
+.dvFeatures .imgHackUS{
+    position: absolute;
+    top: 1224px;
+    Left: 813px;
+    width: 359px;
+    height: 38px;
+    text-align: Left;
+}
+.dvFeatures .AlmostEverywhere_Header{
+    position: absolute;
+    top: 1594px;
+    left: 100px;
+    width: 100%;
+    text-align: Left;
+    font-family: SourceSansPro-Semibold;
+    font-size: 45px;
+    line-height: 40pt;
+}
+.dvFeatures .AlmostEverywhere_sub{
+    position: absolute;
+    top: 1761px;
+    left: 100px;
+    width: 100%;
+    text-align: Left;
+    font-family: SourceSansPro-Regular;
+    font-size: 20px;
+    line-height: 24pt;
+}
+.dvFeatures .Partners {
+    position: absolute;
+    top: 2035px;
+    Left: 100px;
+    font-family: SourceSansPro-Semibold;
+    font-size: 24px;
+    text-align: Left;
+}
+.dvFeatures .PartnersLogo{
+    position: relative;
+    top: 2098px;
+    Left: 100px;
+    margin: 0 41px 0 0;
+}
+.dvFeatures .WorldMap {
+    position: absolute;
+    top: 1593px;
+    Right: 0px;
+}
