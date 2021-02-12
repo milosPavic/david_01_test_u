@@ -1,0 +1,61 @@
+.dvCustomers{
+    position: absolute;
+    width: 100%;
+    height: 715px;
+    margin: 4145px 0 0 0;
+    left: 0;
+    background-color: #232b36;
+}
+.dvCustomers .Left_arrow{
+    position: absolute;
+    top: 184px;
+    left: 274px;
+    width: 26px;
+    height: 58px;
+}
+.dvCustomers .Right_arrow{
+    position: absolute;
+    top: 184px;
+    right: 274px;
+    width: 26px;
+    height: 58px;
+}
+.dvCustomers .Left_image{
+    position: absolute;
+    top: 166px;
+    left: 456px;
+}
+.dvCustomers .Middle_image{
+    position: absolute;
+    top: 136px;
+    right: 580px;
+}
+.dvCustomers .Right_image{
+    position: absolute;
+    top: 166px;
+    right: 456px;
+}
+.dvCustomers .Comment_header{
+    position: absolute;
+    top: 360px;
+    left: 392px;
+    //width: 100%;
+    text-align: center;
+    font-family: SourceSansPro-Regular;
+    font-size: 45px;
+}
+.dvCustomers .Comment{
+    position: absolute;
+    top: 425px;
+    left: 427px;
+    //width: 100%;
+    text-align: center;
+    font-family: SourceSansPro-Regular;
+    font-size: 20px;
+    line-height: 24pt;
+}
+.dvCustomers .Stars{
+    position: absolute;
+    top: 544px;
+    right: 637px;
+}

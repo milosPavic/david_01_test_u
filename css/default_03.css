@@ -50,6 +50,42 @@
     font-family: SourceSansPro-Semibold;
     font-size: 45px;
 }
+/* Form Input*/
+.dvPhoneScreens #frmInvite{
+    position: relative;
+    width: auto;
+    top: 1417px;
+    left: 445px;
+    display: block;
+    //background-color: rgba(255,100,20,0.5);
+}
+#frmInvite input[type=email]{
+    box-sizing: border-box;
+     display: inline-block;
+     width: 550px;
+     height:54px;
+     border-radius: 30px;
+     border:solid 1px #ffffff;
+     background-color: transparent;
+    font-family: SourceSansPro-Regular;
+    font-size: 22px;
+    color: #ffffff;
+    padding: 0 200px 0 30px;
+}
+#frmInvite input[type=submit]{
+    width: 190px;
+    height:54px;
+    border-radius: 30px;
+    border:solid 1px #ffffff;
+    background-color: #90d765;
+    font-family: SourceSansPro-Regular;
+    font-size: 22px;
+    color: #ffffff;
+    margin: 0 0 0 -190px;
+}
+#frmInvite input[type=submit]:hover{opacity: 0.8;}
+#frmInvite input[type=submit]:active{opacity: 0.5;top:1px}
+
 .dvPhoneScreens .SendInvite{
     position: absolute;
     top: 1417px;

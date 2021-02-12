@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/default.css">
     <link rel="stylesheet" href="../css/default_02.css">
     <link rel="stylesheet" href="../css/default_03.css">
+    <link rel="stylesheet" href="../css/default_04.css">
     <link rel="stylesheet" href="../css/fontawesome.all.min.css">
 </head>
 <body>
@@ -84,11 +85,39 @@
             <img class="PhoneScreens" src="../assets/PhoneScreens/PhoneScreens.png">
             <h3 class="NewProvidence">NewProvidence</h3>
             <h2 class="GetItTo">Get it to your smartphone</h2>
-            <img class="SendInvite" src="../assets/PhoneScreens/Send%20Invite.png">
+
+            <form id="frmInvite" method="get" action="../php/invitation.php" onsubmit="submit_form(event);">
+                <input type="email" id="tiEmail" name="email" placeholder="Input email" required/>
+
+                <input id="btnSubmit" type="submit" value="Send Invite 🠆"/>
+            </form>
+
             <h3 class="DownnloadFrom">or Download From</h3>
             <img class="AppStore" src="../assets/PhoneScreens/AppStoreButton.png">
         </div><!--END dvPhoneScreens -->
+
+    <div class="dvCustomers">
+        <img class="Left_arrow" src="../assets/Customers/Arrow-1.png">
+        <img class="Right_arrow" src="../assets/Customers/Arrow.png">
+        <img class="Left_image" src="../assets/Customers/Photo-2.png">
+        <img class="Middle_image" src="../assets/Customers/Photo-1.png">
+        <img class="Right_image" src="../assets/Customers/Photo.png">
+        <h1 class="Comment_header">New Providence is the great UI kit</h1>
+        <p class="Comment">“Just then her head struck against the roof of the hall: in fact she<br>
+            was now more than nine feet high, and she at once took up the little <br>
+            golden key and hurried off to the garden door.”
+        </p>
+        <img class="Stars" src="../assets/Customers/Stars.png">"
+    </div><!--End dvCustomers-->
     </div><!--END dvBox -->
 </div><!--END dvMain -->
+<script>
+    function submit_form(event){
+        event.preventDefault();
+        let email=document.querySelector("#tiEmail").value;
+        alert("zaustavljeno email:"+email);
+    }
+
+</script>
 </body>
 </html>
